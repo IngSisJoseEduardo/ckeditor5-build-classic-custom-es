@@ -1,6 +1,6 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic-custom-es",
-  "version": "22.0.0",
+  "name": "ckeditor5-build-classic-custom-es",
+  "version": "22.0.3",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -53,28 +53,25 @@
     "style-loader": "^1.2.1",
     "terser-webpack-plugin": "^3.0.2",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "@ckeditor/ckeditor5-font": "^22.0.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^22.0.0",
+    "@ckeditor/ckeditor5-remove-format": "^22.0.0"
   },
   "engines": {
     "node": ">=12.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
+  "author": "https://ckeditor.com/ckeditor-5",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "bugs": "https://github.com/IngSisJoseEduardo/ckeditor5-build-classic-custom-es/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5.git",
-    "directory": "packages/ckeditor5-build-classic"
+    "url": "https://github.com/IngSisJoseEduardo/ckeditor5-build-classic-custom-es"
   },
   "scripts": {
     "build": "webpack --mode production",
     "preversion": "npm run build"
-  },
-  "dependencies": {
-    "@ckeditor/ckeditor5-font": "^22.0.0",
-    "@ckeditor/ckeditor5-horizontal-line": "^22.0.0",
-    "@ckeditor/ckeditor5-remove-format": "^22.0.0"
   }
 }
